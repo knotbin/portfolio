@@ -7,10 +7,6 @@ export default function Home() {
     <div class="container">
       <div className="heroText">
         <Title></Title>
-        <p>
-          An iOS engineer making open-source software for people, not
-          algorithms.
-        </p>
       </div>
       <Image src={Knotbin} className="icon" />
     </div>
