@@ -32,12 +32,21 @@ body {
     color: rgb(var(--foreground-rgb));
     background: rgb(var(--background-start-rgb));
 }
-p {
-    font-size: 50px;
-}
 
 h1 {
     font-size: 90px;
+    font-family: "Lemon";
+    font-feature-settings: "ss01" on;
+}
+h2 {
+    font-size: 50px;
+    font-family: "Lemon";
+    font-feature-settings: "ss01" on;
+}
+
+@font-face {
+    font-family: "Lemon"; /*Can be any text*/
+    src: url("../fonts/Lemon-Bold.ttf");
 }
 
 @media (prefers-color-scheme: dark) {

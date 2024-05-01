@@ -4,6 +4,7 @@
     align-items: center;
     align-self: stretch;
     justify-content: space-around;
+    padding: 50px;
 }
 
 .icon {
@@ -11,15 +12,6 @@
     width: 500px;
 }
 
-.heroText {
-    padding: 70px;
-    font-family: "Lemon";
-    font-feature-settings: "ss01" on;
-}
-@font-face {
-    font-family: "Lemon"; /*Can be any text*/
-    src: url("../fonts/Lemon-Bold.ttf");
-}
 @media (prefers-color-scheme: dark) {
     .icon {
         filter: invert();

@@ -6,9 +6,7 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div class={styles.container}>
-      <div className={styles.heroText}>
-        <Title></Title>
-      </div>
+      <Title></Title>
       <Image src={Knotbin} className={styles.icon} />
     </div>
   );
