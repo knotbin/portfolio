@@ -5,11 +5,26 @@
     align-self: stretch;
     justify-content: space-around;
     padding: 50px;
+    height: fit-content;
+}
+
+.sidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 100px;
+    height: fit-content;
 }
 
 .icon {
     height: 600px;
     width: 500px;
+}
+
+.titleicon {
+    height: 400px;
+    width: 90%;
 }
 
 @media (prefers-color-scheme: dark) {

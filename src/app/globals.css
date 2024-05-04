@@ -34,19 +34,29 @@ body {
 }
 
 h1 {
-    font-size: 90px;
-    font-family: "Lemon";
-    font-feature-settings: "ss01" on;
+    font-size: 120px;
 }
 h2 {
     font-size: 50px;
+}
+
+.lemon {
     font-family: "Lemon";
     font-feature-settings: "ss01" on;
+}
+
+.meshed {
+    font-family: "Meshed";
 }
 
 @font-face {
     font-family: "Lemon"; /*Can be any text*/
     src: url("../fonts/Lemon-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Meshed"; /*Can be any text*/
+    src: url("../fonts/MeshedDisplay-Bold.ttf");
 }
 
 @media (prefers-color-scheme: dark) {

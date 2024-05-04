@@ -1,9 +1,13 @@
 export default function Title() {
+  const titlestyle = {
+    padding: 10
+  }
+
   return (
     <div>
-      <h1>ROSCOE RUBIN-ROTTENBERG</h1>
-      <h2>
-        An iOS engineer making open-source software for people, not algorithms.
+      <h1 style={titlestyle} className="lemon">ROSCOE RUBIN-ROTTENBERG</h1>
+      <h2 style={titlestyle} className="meshed">
+        I'm a 14 year old iOS engineer getting my hands dirty and tying myself into knots.
       </h2>
     </div>
   );
