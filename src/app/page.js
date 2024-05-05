@@ -1,6 +1,5 @@
 import Title from "@/components/title";
 import Image from "next/image";
-import Knotbin from "./knotbin.svg";
 import KnotbinText from "./KnotbinText.svg";
 import styles from "./page.module.css";
 
