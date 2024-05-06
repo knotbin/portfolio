@@ -6,9 +6,9 @@ export default function Title() {
   return (
     <div>
       <h1 style={titlestyle} className="lemon">ROSCOE RUBIN-ROTTENBERG</h1>
-      <h2 style={titlestyle} className="meshed">
+      <h3 style={titlestyle} className="meshed">
         I'm a 14 year old iOS engineer getting my hands dirty and tying myself into knots.
-      </h2>
+      </h3>
     </div>
   );
 }

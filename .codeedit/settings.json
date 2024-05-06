@@ -1,11 +1,11 @@
 {
-  "project" : {
-    "projectName" : ""
-  },
   "tasks" : {
-    "enabled" : true,
     "items" : [
 
-    ]
+    ],
+    "enabled" : true
+  },
+  "project" : {
+    "projectName" : ""
   }
 }
