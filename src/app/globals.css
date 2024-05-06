@@ -33,6 +33,25 @@ body {
     background: rgb(var(--background-start-rgb));
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+    justify-content: space-around;
+    padding: 50px;
+    height: fit-content;
+}
+
+.sidecontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 100px;
+    height: fit-content;
+}
+
 h1 {
     font-size: 120px;
 }
