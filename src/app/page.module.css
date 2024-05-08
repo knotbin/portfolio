@@ -6,5 +6,8 @@
 @media (prefers-color-scheme: dark) {
     .titleicon {
         filter: invert();
+        flex-grow: 1;
+        height: auto;
+        width: auto;
     }
 }

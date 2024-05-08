@@ -1,14 +1,13 @@
-import Title from "@/components/title";
-import Image from "next/image";
-import KnotbinText from "./KnotbinText.svg";
 import styles from "./page.module.css";
+import Title from "@/components/title";
 import Acheivements from "@/components/acheivements";
+import LogoAnimation from "@/components/logoanimation";
 
 export default function Home() {
   return (
     <div>
       <div class="container">
-        <Image src={KnotbinText} className={styles.titleicon}></Image>
+        <LogoAnimation class={styles.titleIcon}></LogoAnimation>
       </div>
       <div class="sidecontainer">
         <Title></Title>
