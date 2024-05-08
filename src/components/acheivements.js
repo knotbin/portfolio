@@ -1,7 +1,4 @@
 export default function Acheivements() {
-  const title = {
-    width: 1000
-  }
   return(
 
     <div>
