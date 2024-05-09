@@ -44,6 +44,16 @@ body {
     height: fit-content;
 }
 
+.hocontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 50px;
+    height: fit-content;
+}
+
 .sidecontainer {
     display: flex;
     flex-direction: column;
