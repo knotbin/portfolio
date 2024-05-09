@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <div class="container">
-        <LogoAnimation class={styles.titleIcon}></LogoAnimation>
+        <LogoAnimation></LogoAnimation>
       </div>
       <div class="sidecontainer">
         <Title></Title>
