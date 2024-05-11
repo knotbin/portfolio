@@ -27,12 +27,12 @@
 @media (min-width: 320px) and (max-width: 999px) {
     .socialicon {
         margin: 27px;
-        height: 20px;
-        width: 20px;
+        height: 15px;
+        width: 15px;
     }
     .blacksocial {
         margin: 27px;
-        height: 20px;
-        width: 20px;
+        height: 15px;
+        width: 15px;
     }
 }
