@@ -25,6 +25,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 999px) {
+    .titleicon {
+        max-height: 150px;
+    }
     .socialicon {
         margin: 27px;
         height: 15px;
