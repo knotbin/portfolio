@@ -54,6 +54,16 @@ body {
     height: fit-content;
 }
 
+.hocontainernopad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-content: space-around;
+    height: fit-content;
+}
+
 .sidecontainer {
     display: flex;
     flex-direction: column;
