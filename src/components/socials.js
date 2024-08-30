@@ -13,7 +13,6 @@ export default function Socials() {
                 <a className={Styles.socialicon} href='https://twitter.com/knotbin' target='_blank'><Image src={Twitter} width={50} height={50}></Image></a>
                 <a className={Styles.socialicon} href='https://bsky.app/profile/knotbin.xyz' target='_blank'><Image src={Bluesky} width={50} height={50}></Image></a>
                 <a className={Styles.blacksocial} href='https://github.com/knotbin' target='_blank'><Image src={Github} width={50} height={50}></Image></a>
-                <a className={Styles.blacksocial} href='https://threads.net/@knotbin' target='_blank'><Image src={Threads} width={50} height={50}></Image></a>
             </div>
         </div>
     )
