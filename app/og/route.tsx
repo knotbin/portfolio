@@ -22,7 +22,7 @@ export async function GET(request: Request) {
           backgroundColor: 'white',
           fontSize: 30,
           color: 'black',
-          paddingTop: 50,
+          padding: 100,
           WebkitTextSizeAdjust: 'none',
           fontFamily: '"SF Pro", sans-serif', // Use the custom font here
         }}
