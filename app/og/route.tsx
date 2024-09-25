@@ -1,22 +1,71 @@
 import { ImageResponse } from 'next/og'
+import { ReactElement } from 'react'
 
-export function GET(request: Request) {
+// The GET handler is an async function
+export async function GET(request: Request) {
+
+  // Get the title from the request's URL search params
   let url = new URL(request.url)
-  let title = url.searchParams.get('title') || 'Next.js Portfolio Starter'
+  let title = url.searchParams.get('title') || "Knotbin"
 
+  // Return the ImageResponse with the correct font included
   return new ImageResponse(
     (
-      <div tw="flex flex-col w-full h-full items-center justify-center bg-white">
-        <div tw="flex flex-col md:flex-row w-full py-12 px-4 md:items-center justify-between p-8">
-          <h2 tw="flex flex-col text-4xl font-bold text-left">
+      <div
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          width: '100%',
+          height: '100%',
+          alignItems: 'center',
+          justifyContent: 'center',
+          backgroundColor: 'white',
+          fontSize: 30,
+          color: 'black',
+          paddingTop: 50,
+          WebkitTextSizeAdjust: 'none',
+          fontFamily: '"SF Pro", sans-serif', // Use the custom font here
+        }}
+      >
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            padding: 48,
+            alignItems: 'center',
+            justifyContent: 'space-between',
+          }}
+        >
+          <img
+            alt="avatar"
+            width={200}
+            src={`https://github.com/user-attachments/assets/c1aacd80-779e-4ec4-994b-384357124514`}
+            style={{
+              borderRadius: 128,
+              margin: 50,
+            }}
+          /> 
+          <h1
+            style={{
+              fontWeight: 900,
+              textAlign: 'left',
+            }}
+          >
             {title}
-          </h2>
+          </h1>
         </div>
       </div>
     ),
     {
       width: 1200,
       height: 630,
+      // fonts: [
+      //   {
+      //     name: 'SF Pro', // Name of the custom font
+      //     data: fontData1, // Font data fetched earlier
+      //     style: 'normal',
+      //   },
+      // ],
     }
   )
 }
