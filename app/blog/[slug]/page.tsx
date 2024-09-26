@@ -85,7 +85,12 @@ export default function Blog({ params }) {
       <h1 className="title font-semibold text-2xl">
         {post.metadata.title}
       </h1>
-      <div className="flex justify-between items-center mt-2 mb-8 text-sm">
+      <div className="flex font-medium justify-between items-center mt-2 text-sm">
+        <p className="text-sm text-neutral-800 dark:text-neutral-200">
+          Roscoe Rubin-Rottenberg
+        </p>
+      </div>
+      <div className="flex justify-between items-center mt-1 mb-8 text-sm">
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {formatDate(post.metadata.publishedAt)}
         </p>
