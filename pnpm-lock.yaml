@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@atproto/api':
+        specifier: ^0.13.18
+        version: 0.13.18
       '@tailwindcss/postcss':
         specifier: 4.0.0-alpha.13
         version: 4.0.0-alpha.13(postcss@8.4.35)
@@ -55,6 +58,21 @@ importers:
         version: 5.3.3
 
 packages:
+
+  '@atproto/api@0.13.18':
+    resolution: {integrity: sha512-rrl5HhzGYWZ7fiC965TPBUOVItq9M4dxMb6qz8IvAVQliSkrJrKc7UD0QWL89QiiXaOBuX8w+4i5r4wrfBGddg==}
+
+  '@atproto/common-web@0.3.1':
+    resolution: {integrity: sha512-N7wiTnus5vAr+lT//0y8m/FaHHLJ9LpGuEwkwDAeV3LCiPif4m/FS8x/QOYrx1PdZQwKso95RAPzCGWQBH5j6Q==}
+
+  '@atproto/lexicon@0.4.3':
+    resolution: {integrity: sha512-lFVZXe1S1pJP0dcxvJuHP3r/a+EAIBwwU7jUK+r8iLhIja+ml6NmYv8KeFHmIJATh03spEQ9s02duDmFVdCoXg==}
+
+  '@atproto/syntax@0.3.1':
+    resolution: {integrity: sha512-fzW0Mg1QUOVCWUD3RgEsDt6d1OZ6DdFmbKcDdbzUfh0t4rhtRAC05KbZYmxuMPWDAiJ4BbbQ5dkAc/mNypMXkw==}
+
+  '@atproto/xrpc@0.6.4':
+    resolution: {integrity: sha512-9ZAJ8nsXTqC4XFyS0E1Wlg7bAvonhXQNQ3Ocs1L1LIwFLXvsw/4fNpIHXxvXvqTCVeyHLbImOnE9UiO1c/qIYA==}
 
   '@mdx-js/mdx@2.3.0':
     resolution: {integrity: sha512-jLuwRlz8DQfQNiUCJR50Y09CGPq3fLtmtUQfVrj79E0JWu3dvsVcxVIcfhR5h0iXu+/z++zDrYeiJqifRynJkA==}
@@ -282,6 +300,9 @@ packages:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
 
+  await-lock@2.2.2:
+    resolution: {integrity: sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw==}
+
   bail@2.0.2:
     resolution: {integrity: sha512-0xO6mYd7JB2YesxDKplafRpsiOzPt9V02ddPCLbY1xYGPOX24NTyN50qnUxgCPcSoYMhKpAuBTjQoRZCAkUDRw==}
 
@@ -371,6 +392,9 @@ packages:
   graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
+  graphemer@1.4.0:
+    resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
+
   hasown@2.0.1:
     resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
     engines: {node: '>= 0.4'}
@@ -409,6 +433,9 @@ packages:
 
   is-reference@3.0.2:
     resolution: {integrity: sha512-v3rht/LgVcsdZa3O2Nqs+NMowLOxeOm7Ay9+/ARQ2F+qEoANRcqrjAZKGN0v8ymUetZGgkp26LTnGT7H0Qo9Pg==}
+
+  iso-datestring-validator@2.2.2:
+    resolution: {integrity: sha512-yLEMkBbLZTlVQqOnQ4FiMujR6T4DEcCb1xizmvXS+OxuhwcbtynoosRzdMA69zZCShCNAbi+gJ71FxZBBXx1SA==}
 
   js-tokens@4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
@@ -611,6 +638,9 @@ packages:
   ms@2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
+  multiformats@9.9.0:
+    resolution: {integrity: sha512-HoMUjhH9T8DDBNT+6xzkrd9ga/XiBI4xLr58LJACwK6G3HTOPeMz4nB4KJs33L2BelrIJa7P0VuNaVF3hMYfjg==}
+
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -756,6 +786,10 @@ packages:
   tailwindcss@4.0.0-alpha.13:
     resolution: {integrity: sha512-YbLm8I10/bsGr7zrUNxn4Soj9Lc71anTWu/ulgry64rbBU4m0vov539+caeifAiKhsef2NUCW1twaqH3NfJd2Q==}
 
+  tlds@1.255.0:
+    resolution: {integrity: sha512-tcwMRIioTcF/FcxLev8MJWxCp+GUALRhFEqbDoZrnowmKSGqPrl5pqS+Sut2m8BgJ6S4FExCSSpGffZ0Tks6Aw==}
+    hasBin: true
+
   trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
 
@@ -769,6 +803,9 @@ packages:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
+
+  uint8arrays@3.0.0:
+    resolution: {integrity: sha512-HRCx0q6O9Bfbp+HHSfQQKD7wU70+lydKVt4EghkdOvlK/NlrF90z+eXV34mUd48rNvVJXwkrMSPpCATkct8fJA==}
 
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
@@ -814,10 +851,46 @@ packages:
   vfile@5.3.7:
     resolution: {integrity: sha512-r7qlzkgErKjobAmyNIkkSpizsFPYiUPuJb5pNW1RB4JcYVZhs4lIbVqk8XPk033CV/1z8ss5pkax8SuhGpcG8g==}
 
+  zod@3.23.8:
+    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
 snapshots:
+
+  '@atproto/api@0.13.18':
+    dependencies:
+      '@atproto/common-web': 0.3.1
+      '@atproto/lexicon': 0.4.3
+      '@atproto/syntax': 0.3.1
+      '@atproto/xrpc': 0.6.4
+      await-lock: 2.2.2
+      multiformats: 9.9.0
+      tlds: 1.255.0
+      zod: 3.23.8
+
+  '@atproto/common-web@0.3.1':
+    dependencies:
+      graphemer: 1.4.0
+      multiformats: 9.9.0
+      uint8arrays: 3.0.0
+      zod: 3.23.8
+
+  '@atproto/lexicon@0.4.3':
+    dependencies:
+      '@atproto/common-web': 0.3.1
+      '@atproto/syntax': 0.3.1
+      iso-datestring-validator: 2.2.2
+      multiformats: 9.9.0
+      zod: 3.23.8
+
+  '@atproto/syntax@0.3.1': {}
+
+  '@atproto/xrpc@0.6.4':
+    dependencies:
+      '@atproto/lexicon': 0.4.3
+      zod: 3.23.8
 
   '@mdx-js/mdx@2.3.0':
     dependencies:
@@ -1002,6 +1075,8 @@ snapshots:
 
   astring@1.8.6: {}
 
+  await-lock@2.2.2: {}
+
   bail@2.0.2: {}
 
   busboy@1.6.0:
@@ -1075,6 +1150,8 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
+  graphemer@1.4.0: {}
+
   hasown@2.0.1:
     dependencies:
       function-bind: 1.1.2
@@ -1125,6 +1202,8 @@ snapshots:
   is-reference@3.0.2:
     dependencies:
       '@types/estree': 1.0.5
+
+  iso-datestring-validator@2.2.2: {}
 
   js-tokens@4.0.0: {}
 
@@ -1494,6 +1573,8 @@ snapshots:
 
   ms@2.1.2: {}
 
+  multiformats@9.9.0: {}
+
   nanoid@3.3.7: {}
 
   next-mdx-remote@4.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
@@ -1658,6 +1739,8 @@ snapshots:
 
   tailwindcss@4.0.0-alpha.13: {}
 
+  tlds@1.255.0: {}
+
   trim-lines@3.0.1: {}
 
   trough@2.2.0: {}
@@ -1665,6 +1748,10 @@ snapshots:
   tslib@2.6.2: {}
 
   typescript@5.3.3: {}
+
+  uint8arrays@3.0.0:
+    dependencies:
+      multiformats: 9.9.0
 
   undici-types@5.26.5: {}
 
@@ -1736,5 +1823,7 @@ snapshots:
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
+
+  zod@3.23.8: {}
 
   zwitch@2.0.4: {}
