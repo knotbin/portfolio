@@ -170,3 +170,7 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.interaction {
+  font-size: medium;
+}
