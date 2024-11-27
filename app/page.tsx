@@ -9,8 +9,8 @@ export default function Page() {
       <h1 className="text-3xl font-bold">
         Roscoe Rubin-Rottenberg
       </h1>
-      <h2 className='mb-8 text-xl font-medium text-gray-500'>knotbin</h2>
-      <p className="mb-4 text-gray-600">
+      <h2 className='mb-8 text-xl font-medium text-gray-500 dark:text-gray-300'>knotbin</h2>
+      <p className="mb-4 text-gray-600 dark:text-gray-400">
         {`I'm a fourteen year old software developer. I know Swift, JS, and Python. I have the
         most experience in iOS development with SwiftUI and won the 2024 Apple Swift Student
         Challenge. I love learning how things work and overthinking everything I come across.`}
